@@ -1,8 +1,12 @@
-<!DOCTYPE html>
 <html lang="en">
 <title>APRENDIZAJE NOTABLE</title>
-<meta charset="UTF-8">
 
+<!-- ENLACES -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
@@ -12,6 +16,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
 body {font-size:16px;}
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
 .w3-half img:hover{opacity:1}
+
 </style>
 <body background="fondo.jpg" >
 
@@ -26,28 +31,20 @@ style="z-index:3;width:300px;font-weight:bold;" id="mySidebar">
 
   APRENDIZAJE <br>
   NOTABLE
-  
-
-
-
-  
- 
-  
     
   </div>
   <div class="w3-bar-block">
-      <img src="logo2.png" class="imagen" > 
-      
-
-
-
+  <div> <img src="logo2.png" class="imagen" > 
+  </div>
+     
+	 
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Inicio</a> 
     <a href="#objetivo" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Objetivo General</a> 
     <a href="#alcance" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Alcance</a> 
     <a href="#impacto" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Impacto Social</a> 
     <a href="#quienes" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Quienes Somos</a> 
     <a href="#jugar" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Jugar</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contacto</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contactenos</a>
   </div>
 </nav>
 
@@ -63,9 +60,10 @@ style="z-index:3;width:300px;font-weight:bold;" id="mySidebar">
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
-  <!-- Header -->
+<!-- CUERPO DE LA PÁGINA -->
   <div class="w3-container" style="margin-top:80px" id="showcase">
     <center>  <h1 class="w3-jumbo" ><b></b></h1></center> 
+  
     <h1 class="w3-xxxlarge w3-text-red" ><b>Inicio.</b> </h1>
     <hr style="width:50px;border:5px solid blue" class="w3-round">
   </div>
@@ -74,22 +72,11 @@ style="z-index:3;width:300px;font-weight:bold;" id="mySidebar">
     En años anteriores notamos que en la Institución Educativa Javiera Londoño, la 
     enseñanza del álgebra, en temas como producto notable y factorización en trinomio 
     cuadrado perfecto no fue suficiente, porque al realizar las pruebas
-    saber en el grado noveno, hubo un desempeño muy bajo, teniendo como resultado lo siguiente: <br>
-    
-    Del 69% de estudiantes no reconocen expresiones numéricas y algebraicas. <br>
-    Un 65% de estudiantes no reconocen el lenguaje algebraico en un proceso lógico.
+    saber en el grado noveno, hubo un desempeño muy bajo, teniendo como resultado un alto porcentaje
+    de estudiantes que no reconocen expresiones algebraicas.
   </p>
 
-  <!-- Modal for full size images on click-->
-  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-      <img id="img01" class="w3-image">
-      <p id="caption"></p>
-    </div>
-  </div>
-
-  <!-- Services -->
+<!-- OBJETIVO GENERAL -->
   <div class="w3-container" id="objetivo" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Objetivo General.</b></h1>
     <hr style="width:50px;border:5px solid blue" class="w3-round">
@@ -99,63 +86,135 @@ style="z-index:3;width:300px;font-weight:bold;" id="mySidebar">
       Institución Educativa Javiera Londoño.
     </p>
   </div>
-  
-  <!-- Designers -->
+ 
+<!-- ALCANCE -->
   <div class="w3-container" id="alcance" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Alcance.</b></h1>
     <hr style="width:50px;border:5px solid blue" class="w3-round">
     
     <p>
-        La plataforma contará con una ventana de inicio donde aparezca el nombre del proyecto y el 
-        botón de inicio, donde se encontrarán tres niveles: 
-
-        En el nivel 1 se enseña la teoría con ejemplos e imágenes de forma didáctica sobre los dos 
-        temas producto notable y factorización en el trinomio cuadrado perfecto.
-        
-        En el nivel  2  se evalúan los conceptos aprendidos a través de preguntas y ejercicios,.
-        Este nivel contará con 3 preguntas de selección múltiple las cuales contendrán imágenes, y 
-        otras 3 las cuales tendrá que realizar el usuario paso a paso.
-        Al finalizar estos ejercicios aparecerá una ventana donde se le mostrará al usuario su cantidad 
-        de aciertos y cantidad de errores.
-        
-        El nivel 3 estará compuesto por las 10 preguntas correspondientes en Java, en las cuales 
-        tocaran los temas de factorizacion en trinomio cuadrado perfecto y producto notable
-        
-        La parte didáctica del software  se realizará en Scratch, estará compuesto por un personaje 
-        que acompañara y guiara al usuario en la plataforma. La temática será entretenida para llamar 
-        la atención a quienes la utilicen.        
+        La plataforma cuenta con: <br>
+        Una ventana de inicio. <br>
+        Dos ventanas de explicación: Donde se encuentra la teoría de ambos temas. <br>
+        Seis ventanas de actividades: Donde hay tres formas didacticas de implementar lo aprendido, 
+        en la finalización de cada actividad se encuentra un consejo para mejorar en estos temas.
     </p>
+
+<!-- GALERIA DE IMAGENES -->
+    <div class="container">
+      <h2>Aplicativo en Scratch</h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+		  <li data-target="#myCarousel" data-slide-to="3"></li>
+		  <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+            
+        <div class="carousel-inner">
+    
+          <div class="item active">
+            <img src="inicio.jpg" alt="Inicio" style="width:70%;">
+            <div class="carousel-caption">
+              <h3>Inicio</h3>              
+            </div>
+          </div>
+    
+          <div class="item">
+            <img src="producto.jpg" alt="Teoría Producto Notable" style="width:70%;">
+            <div class="carousel-caption">
+              <h3>Teoría Producto Notable</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="trinomio.jpg" alt="Teoría Trinomio Cuadrado Perfecto" style="width:70%;">
+            <div class="carousel-caption">
+              <h3>Teoría Trinomio Cuadrado Perfecto </h3>
+            </div>
+          </div>
+        
+          <div class="item">
+            <img src="actividad1.jpg" alt="Actividad #1" style="width:70%;">
+            <div class="carousel-caption">
+              <h3>Actividad #1</h3>
+            </div>
+          </div>
+      
+          <div class="item">
+            <img src="santiago.jpg" alt="Actividad #2" style="width:70%;">
+            <div class="carousel-caption">
+              <h3>Actividad #2</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="santiago.jpg" alt="Actividad #3" style="width:70%;">
+            <div class="carousel-caption">
+              <h3>Actividad #3</h3>
+            </div>
+          </div>
+        
+        <!-- BOTÓN ADELANTE ATRÁS -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+
+      </div>
+    </div>
+    
+
   </div>
 
-  <!-- Packages / Pricing Tables -->
+<!-- IMPACTO SOCIAL -->
   <div class="w3-container" id="impacto" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Impacto Social.</b></h1>
     <hr style="width:50px;border:5px solid blue" class="w3-round">
-    <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
-  </div>
+    <p>
+      Nuestro software brindará a la comunidad un aprendizaje significativo,
+      pues con su metodología didáctica, ya no será un problema la enseñanza del algebra.
+      La motivación por aprender será aún mayor, además aquellos porcentajes estadísticos,
+      resultados de diversas pruebas académicas, incrementarán con el uso correcto de nuestro proyecto.
+    </p>
+    </div>
 
   
   
-
+<!-- QUIENES SOMOS -->
   <div class="w3-container" id="quienes" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Quienes somos.</b></h1>
     <hr style="width:50px;border:5px solid blue" class="w3-round">
     <p>
-      
+    Nuestro equipo de trabajo se conforma por...
     </p>
 
-    <div>
-        <div class="w3-col m4 w3-margin-bottom">
+    <div > 
+    <div class="fade">
+        <div class="w3-col m4 w3-margin-bottom" >
           <div class="w3-light-grey">
             <img src="santiago.jpg"  style="width:100%">
             <div class="w3-container">
               <h3>Santiago Palacio Alzate</h3>
               <p class="w3-opacity">Estudiante</p>
-              <p> </p>
-              </div>
+              <p> 
+                Yo soy Santiago, un apasionado de la Ciencia y la tecnología. <br>
+                Estoy muy comprometido con la media técnica porque deseo dedicarme al desarrollo 
+                en unos años, luego de esto me gustaría estudiar física y pasar el resto de mi vida 
+                investigando.
+              </p>
+            </div>
           </div>
         </div>
+      </div>
 
+      <div class="fade">
         <div class="w3-col m4 w3-margin-bottom">
           <div class="w3-light-grey">
             <img src="jocelyn.jpg"  style="width:100%">
@@ -164,42 +223,62 @@ style="z-index:3;width:300px;font-weight:bold;" id="mySidebar">
               <p class="w3-opacity">Estudiante</p>
               <p>
               Soy estudiante de grado décimo de la Javiera Londoño. <br>
-              Soy dedicada perseverante y responsable para las situaciones de mi vida, me gusta el trabajo en equipo y hacer las cosas de una manera correcta. <br>
+              Soy dedicada perseverante y responsable para las situaciones de mi vida, 
+			        me gusta el trabajo en equipo y hacer las cosas de una manera correcta. <br>
               Me gusta dedicar tiempo a mi familia.<br>
-              Mi pasión es el baile, y en mi tiempo libre me gusta salir a caminar y compartir con las personas de mi entorno.
+              Mi pasión es el baile, y en mi tiempo libre me gusta salir a caminar y compartir 
+              con las personas de mi entorno. <br>
+              En un futuro deseo verme como una ingeniera en sistemas, en verdad me gusta y me apasiona.
+            
               </p>
-              </div>
+            </div>
           </div>
         </div>
+      </div> 
 
+      <div class="fade">
         <div class="w3-col m4 w3-margin-bottom">
           <div class="w3-light-grey">
             <img src="Sara.png"  style="width:100%">
             <div class="w3-container">
               <h3>Sara Zapata Posada</h3>
               <p class="w3-opacity">Estudiante</p>
-              <p>
-              </div>
+              <p> 
+                Hola, mi nombre es Sara Zapata Posada. <br>
+                Vivo en Medellín, estudio en la Institución Educativa Javiera Londoño, 
+                y lo que más me gusta hacer es me gusta dormir y comer. <br>
+                En mi tiempo libre me gusta leer, practicar basketball, voleibol 
+                y ver algunas series de televisión.<br>
+                Me gustaría estudiar comunicación social y terminar la media tecnica (ingeniería de software-diseño de software).
+              </p>
+            </div>
           </div>
         </div>
+      </div>
 
+      <div class="fade">
         <div class="w3-col m4 w3-margin-bottom">
             <div class="w3-light-grey">
               <img src="camila.jpg"  style="width:100%">
               <div class="w3-container">
                 <h3>Camnila Lopez</h3>
                 <p class="w3-opacity">Estudiante</p>
-                <p>
-                </div>
+                <p> 
+                Hola mi nombre es Camila López. <br>
+                Vivo en medellin, acualmente tengo 16 años y estudio en la Institución Educativa Javiera Londoño. <br> 
+                Lo que mas amo es pasar tiempo con mis mascotas, me encanta tomar fotografias al cielo. <br>
+                Mis hobbits son: leer, escuchar musica en especial el rock, me gusta el basquetball. <br> 
+                En el futuro me veo estudiando ingenieria en sistemas.
+                </p>
+               </div>
             </div>
-          </div>
-
-      </div>
+        </div>
+    </div>
+   </div>
   </div>
 
-
-
-  <div class="w3-container" id="jugar" style="margin-top:75px">
+<!-- JUGAR -->
+    <div class="w3-container" id="jugar" style="margin-top:75px">
       <h1 class="w3-xxxlarge w3-text-red"><b>Jugar.</b></h1>
       <hr style="width:50px;border:5px solid blue" class="w3-round">
       <p>
@@ -207,15 +286,16 @@ style="z-index:3;width:300px;font-weight:bold;" id="mySidebar">
       </p>
     </div>
 
-  <!-- Contact -->
-  <div class="w3-container" id="contact" style="margin-top:75px">
+<!-- CONTACTENOS -->
+    <div class="w3-container" id="contact" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Contactenos.</b></h1>
     <hr style="width:50px;border:5px solid blue" class="w3-round">
-    <p>Si tienes alguna duda o deseas saber más de notros y de nuestro proyecto. Llena el siguiente formulario, y responderemos a tu solicitud. </p>
+    <p>Si tienes alguna duda o deseas saber más de notros y de nuestro proyecto.<br>  
+	Llena el siguiente formulario, y responderemos a tu solicitud. </p>
     <form action="/action_page.php" target="_blank">
 
       <div class="w3-section">
-        <label>Nombre/label>
+        <label>Nombre y apellido</label>
         <input class="w3-input w3-border" type="text" name="Name" required>
       </div>
 
@@ -228,42 +308,20 @@ style="z-index:3;width:300px;font-weight:bold;" id="mySidebar">
         <label>Mensaje</label>
         <input class="w3-input w3-border" type="text" name="Message" required>
       </div>
-      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+	  
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Enviar mensaje</button>
     </form>  
-  </div>
+    </div>
 
-<!-- End page content -->
+<!-- FIN DEL CUERPO DE LA PÁGINA -->
 
-
-
-
-</div>
 
 <!-- W3.CSS Container -->
-<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
-
-
-
-
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+<p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" 
+class="w3-hover-opacity">w3.css</a></p></div>
 <script type="text/javascript">
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
 
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
 
 </script>
 </body>
