@@ -245,7 +245,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     
         transform: rotateY(320deg);
 
-    
+
 }
 
 .fade
@@ -257,3 +257,4 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
         opacity:1;
 }
 
+.carousel .item.left img{ width: 10% !important; }  
